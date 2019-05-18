@@ -1,0 +1,40 @@
+header#main-header{
+    height: 60px;
+    width: 100%;
+    background: #da9c55;
+    font-size: 18px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+header#main-header h1{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+header#main-header a{
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    background: none;
+    margin-top: 10px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+    float: right;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+header#main-header a:hover{
+    background: #da552f;
+    border: 2px solid #da552f;
+    color: #fff;
+}

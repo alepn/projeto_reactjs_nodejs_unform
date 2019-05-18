@@ -1,0 +1,98 @@
+.product-list{
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+
+.product-list article{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.product-list article p{
+    font-size: 16px;
+    color: #999;
+    margin-top: 5px;
+    line-height: 24px;
+}
+
+.product-list article a{
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #da552f;
+    background: none;
+    margin-top: 10px;
+    color: #da552f;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.product-list article a:hover{
+    background: #da552f;
+    color: #fff;
+}
+
+button{
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #da552f;
+    background: none;
+    margin: 30px;
+    color: #da552f;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.2s;
+    padding: 10px;    
+    cursor: pointer;
+}
+
+button:hover{
+    background: #da552f;
+    color: #fff;
+}
+
+.product-paginate{
+    margin: 0 auto;
+}
+
+.product-form{
+    margin: 50px auto;
+    border: 2px solid #da552f;
+    padding-top: 30px;
+    width: 500px;
+}
+
+.product-form h2{
+    color: #da552f;
+    margin-bottom: 30px;
+}
+
+.product-form label{
+    font-weight: bold;
+}
+
+.product-form input{
+    height: 42px;
+    border-radius: 5px;
+    border: 2px solid #da552f;
+    background: none;
+    margin: 10px auto;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.2s;
+    padding: 10px;
+    display: flex;
+}
